@@ -1,0 +1,27 @@
+{
+  "name": "web-test-runer-with-user-event",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "web-test-runner --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remcovaes/web-test-runer-with-user-event.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/remcovaes/web-test-runer-with-user-event/issues"
+  },
+  "homepage": "https://github.com/remcovaes/web-test-runer-with-user-event#readme",
+  "devDependencies": {
+    "@rollup/plugin-replace": "^4.0.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@web/dev-server-rollup": "^0.3.19",
+    "@web/test-runner": "^0.14.0",
+    "@web/test-runner-playwright": "^0.8.10"
+  }
+}
